@@ -49,6 +49,7 @@ def ingredients_and_amounts(perfect_10_recipe)
   amounts = perfect_10_recipe.value
  perfect_10_recipe.each do |ingredients, amounts|
    puts "#{ingredients} : #{amounts}"
+ end
 end
 
 ingredients_and_amounts(perfect_10_recipe)
