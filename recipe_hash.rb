@@ -59,6 +59,7 @@ def ingredients(perfect_10_recipe)
   ingredients = perfect_10_recipe.keys
   perfect_10_recipe.each do |ingredients|
   puts "#{ingredients}"
+end 
 end
 
 ingredients(perfect_10_recipe)
